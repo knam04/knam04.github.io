@@ -1,45 +1,42 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
-    
     <title>Kaz N</title>
     <meta charset="utf-8" />
-	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	  <!-- link the webpage's stylesheet -->
-	  <link rel="stylesheet" href="/style.css" />
-
-	  <!-- link the webpage's JavaScript file -->
-	  <script src="/script.js" defer></script>
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- link the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- link the webpage's JavaScript file -->
+    <script src="/script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-
   </head>
   <nav>
     <ul>
       <li>
-        <a class = active href = "index.html">Home</a>
+        <a href="about.html">About</a>
       </li>
       <li>
-        <a href = "about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
       </li>
       <li>
-        <a href = "portfolio.html">Portfolio</a>
+        <a class="active" href="index.html">Home</a>
       </li>
     </ul>
   </nav>
-  
-  <body>
-    <div class = container>
-    <div class = home>
-      <a href = "about.html" style="text-decoration:none"><h1 class = h1Home>Hello! Kaz here.</h1></a>
-      <h2 class = h2Home>I'm a current senior at Rice University majoring in computer science and minoring in sociology.</h2>
-    </div>
 
-    <img id = pfp src="assets/pfp.png" alt = "A digital drawing of a short, brown-haired person with glasses and a frog on their head. The person is wearing a blue shirt that says Kaz. Both the frog and person are saying ribbit.">
+  <body>
+    <div class="container">
+      <div class="home">
+        <a href="about.html" style="text-decoration:none"><h1 class="h1Home">Hello! Kaz here.</h1></a>
+        <h2 class="h2Home">I'm a current senior at Rice University majoring in computer science and minoring in sociology.</h2>
+      </div>
+      <div class="hero-photo-wrap">
+        <img id="pfp" src="assets/me.JPG" alt="A photo of Kaz">
+        <img class="avatar-badge" src="assets/pfp.png" alt="An illustrated avatar of Kaz with a frog on their head">
+      </div>
     </div>
   </body>
 </html>

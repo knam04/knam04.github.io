@@ -4,7 +4,7 @@
 
 /* STYLE SECTIONING TAGS */
 body {
-  background-color: #ffdbdb;
+  background-color: #fbe6e3;
   overflow-x: hidden;
   margin: 0;
   padding-bottom: 60px;
@@ -83,6 +83,22 @@ li a:hover:is(.active) {
   max-width: 300px;
   height: auto;
   border-radius: 30px;
+}
+.hero-photo-wrap{
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+.avatar-badge{
+  position: absolute;
+  bottom: -18px;
+  right: -18px;
+  width: 90px;
+  height: auto;
+  border-radius: 50%;
+  border: 4px solid #fbe6e3;
+  background-color: #fbe6e3;
+  transform: rotate(-6deg);
 }
 .home{
   margin: 0;
