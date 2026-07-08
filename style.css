@@ -141,6 +141,7 @@ li a:hover:is(.active) {
   background-color: #fff9f9;
   box-sizing: border-box;
   transition: border-color 0.2s ease;
+  min-width: 0;
 }
 .project-card:hover {
   border-color: #375C3B;
@@ -149,12 +150,15 @@ li a:hover:is(.active) {
   width: 100%;
   max-width: 280px;
   flex: 1 1 220px;
-  height: auto;
+  min-width: 0;
+  height: 180px;
+  object-fit: cover;
   border-radius: 15px;
   display: block;
 }
 .project-text{
   flex: 2 1 300px;
+  min-width: 0;
 }
 .project-title{
   font-family: 'Press Start 2P', cursive;
