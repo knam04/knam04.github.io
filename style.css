@@ -7,6 +7,8 @@ body {
   background-color: #ffdbdb;
   overflow-x: hidden;
   margin: 0;
+  padding-bottom: 60px;
+  box-sizing: border-box;
 }
 
 /* STYLE TEXT */
